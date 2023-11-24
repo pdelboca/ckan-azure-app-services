@@ -1,4 +1,4 @@
--e "git+https://github.com/ckan/ckan.git#egg=ckan"
+ckan==2.10.1
 
 # Compiled CKAN requiremets file does not support Python 3.10 yet
 #
