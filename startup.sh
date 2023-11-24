@@ -1,7 +1,7 @@
 # This file is run by Azure App Service as entrypoint
 # https://learn.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command
 
-apt-get install libmagic-dev
+apt-get install libmagic-dev -y
 
 # Set up CKAN Config File
 # export CKAN_INI=ckan.ini
