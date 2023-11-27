@@ -15,4 +15,6 @@ ckan config-tool ${CKAN_INI} "ckan.redis.url = ${CKAN_CKAN_REDIS_URL}"
 ckan config-tool ${CKAN_INI} "solr_url = ${CKAN_SOLR_URL}"
 ckan config-tool ${CKAN_INI} "ckan.site_url = ${CKAN_SITE_URL}"
 
+ckan db init
+
 gunicorn --bind=0.0.0.0 --timeout 600 app:app
