@@ -17,4 +17,4 @@ ckan config-tool ${CKAN_INI} "ckan.site_url = ${CKAN_SITE_URL}"
 
 ckan db init
 
-gunicorn --bind=0.0.0.0:8000 --timeout 600 app:app
+gunicorn --bind=0.0.0.0:8000 --timeout 60 app:app
